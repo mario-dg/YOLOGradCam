@@ -1,0 +1,15 @@
+[project]
+name = "yologradcam"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "grad-cam>=1.5.4",
+    "gradio>=5.21.0",
+    "matplotlib>=3.10.1",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.1.0",
+    "torch>=2.6.0",
+    "ultralytics>=8.3.92",
+]
